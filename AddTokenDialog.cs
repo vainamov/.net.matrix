@@ -17,6 +17,20 @@ namespace dotNetdotMatrix {
             this.set = set;
         }
 
+        public void SetToken(Token token) {
+            tbxContent.Text = token.Content;
+            nudDuration.Value = token.Duration;
+            cbxAlign.SelectedIndex = (int) token.Align;
+            nudIndex.Value = token.Index;
+            nudLine.Value = token.Line;
+            tbxColor.Text = token.Color;
+            chxInvert.Checked = token.Inverted;
+            chxKeep.Checked = token.Keep;
+            btnAdd.Text = "Save";
+            label1.Text = "Edit Token";
+            this.Text = "Edit Token";
+        }
+
         private void addTokenDialog_Shown(object sender, EventArgs e) {
             cbxAlign.SelectedIndex = 0;
         }

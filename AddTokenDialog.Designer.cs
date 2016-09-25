@@ -135,6 +135,7 @@
             // chxInvert
             // 
             this.chxInvert.AutoSize = true;
+            this.chxInvert.Enabled = false;
             this.chxInvert.Location = new System.Drawing.Point(13, 341);
             this.chxInvert.Name = "chxInvert";
             this.chxInvert.Size = new System.Drawing.Size(55, 17);

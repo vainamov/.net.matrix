@@ -4,7 +4,7 @@
     {
         public string Content { get; set; }
         public bool Inverted { get; set; }
-        public Align Orientation { get; set; }
+        public Align Align { get; set; }
         public bool DoLoop { get; set; }
         public int Duration { get; set; }
         public int Index { get; set; }
@@ -15,7 +15,7 @@
         public Token(string content, bool inverted, Align orientation, bool doLoop, int duration, int index, int line = 0, bool keep = false, string color = "#E8AA0E") {
             Content = content;
             Inverted = inverted;
-            Orientation = orientation;
+            Align = orientation;
             DoLoop = doLoop;
             Duration = duration;
             Index = index;

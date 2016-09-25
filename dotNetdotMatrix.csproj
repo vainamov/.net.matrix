@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon-prototype.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\..\..\..\..\DLL-Verweise\Newtonsoft.Json.dll</HintPath>
@@ -57,6 +60,12 @@
     </Compile>
     <Compile Include="Charset.cs" />
     <Compile Include="DisplayChar.cs" />
+    <Compile Include="ExImportDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExImportDialog.Designer.cs">
+      <DependentUpon>ExImportDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +83,9 @@
     <Compile Include="Token.cs" />
     <EmbeddedResource Include="AddTokenDialog.resx">
       <DependentUpon>AddTokenDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExImportDialog.resx">
+      <DependentUpon>ExImportDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
@@ -103,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon-prototype.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
