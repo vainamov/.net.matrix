@@ -38,6 +38,7 @@ namespace dotNetdotMatrix
             nudLines.ValueChanged += nudLines_ValueChanged;
             Resize += nudLines_ValueChanged;
             cmsTokenContainer.Opened += cmsTokenContainer_Opened;
+            tsmiRender.Click += tsmiRender_Click;
             tsmiEdit.Click += tsmiEdit_Click;
             tsmiDuplicate.Click += tsmiDuplicate_Click;
             tsmiRemove.Click += tsmiRemove_Click;
@@ -47,6 +48,11 @@ namespace dotNetdotMatrix
             btnRestartAnimation.Click += btnRestartAnimation_Click;
             btnExImport.Click += btnExImport_Click;
             pnlMargin.Padding = new Padding(15, (pnlMargin.Height - 40) / 2, 15, (pnlMargin.Height - 40) / 2);
+        }
+
+        private void tsmiRender_Click(object sender, EventArgs e) {
+            int index = lvwTokens.SelectedIndices[0];
+            RenderToken(tokens[index]);
         }
 
         private void btnExImport_Click(object sender, EventArgs e) {

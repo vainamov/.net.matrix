@@ -58,6 +58,7 @@
             this.tbxColor = new System.Windows.Forms.TextBox();
             this.pnlMargin = new System.Windows.Forms.Panel();
             this.tmrClock = new System.Windows.Forms.Timer(this.components);
+            this.tsmiRender = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudRatio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudLines)).BeginInit();
@@ -137,11 +138,11 @@
             this.btnExImport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExImport.Enabled = false;
-            this.btnExImport.Location = new System.Drawing.Point(394, 281);
+            this.btnExImport.Location = new System.Drawing.Point(389, 281);
             this.btnExImport.Name = "btnExImport";
-            this.btnExImport.Size = new System.Drawing.Size(75, 25);
+            this.btnExImport.Size = new System.Drawing.Size(80, 25);
             this.btnExImport.TabIndex = 18;
-            this.btnExImport.Text = "Ex-/Import";
+            this.btnExImport.Text = "Ex-/Import...";
             this.btnExImport.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -293,12 +294,13 @@
             // 
             this.cmsTokenContainer.BackColor = System.Drawing.Color.White;
             this.cmsTokenContainer.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiRender,
             this.tsmiEdit,
             this.tsmiDuplicate,
             this.tsmiRemove});
             this.cmsTokenContainer.Name = "cmsTokenContainer";
             this.cmsTokenContainer.ShowImageMargin = false;
-            this.cmsTokenContainer.Size = new System.Drawing.Size(100, 70);
+            this.cmsTokenContainer.Size = new System.Drawing.Size(100, 92);
             // 
             // tsmiEdit
             // 
@@ -325,7 +327,7 @@
             this.btnAddToken.Name = "btnAddToken";
             this.btnAddToken.Size = new System.Drawing.Size(60, 25);
             this.btnAddToken.TabIndex = 8;
-            this.btnAddToken.Text = "Add";
+            this.btnAddToken.Text = "Add...";
             this.btnAddToken.UseVisualStyleBackColor = true;
             // 
             // btnSelectCharset
@@ -364,6 +366,12 @@
             // tmrClock
             // 
             this.tmrClock.Interval = 1000;
+            // 
+            // tsmiRender
+            // 
+            this.tsmiRender.Name = "tsmiRender";
+            this.tsmiRender.Size = new System.Drawing.Size(99, 22);
+            this.tsmiRender.Text = "Render";
             // 
             // MainWindow
             // 
@@ -418,6 +426,7 @@
         private System.Windows.Forms.Button btnExImport;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown nudRatio;
+        private System.Windows.Forms.ToolStripMenuItem tsmiRender;
     }
 }
 
