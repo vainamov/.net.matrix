@@ -32,6 +32,7 @@
             this.pnlDisplay = new System.Windows.Forms.Panel();
             this.btnClearToken = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnClearComplete = new System.Windows.Forms.Button();
             this.btnStopAnimation = new System.Windows.Forms.Button();
             this.btnStartAnimation = new System.Windows.Forms.Button();
             this.btnRestartAnimation = new System.Windows.Forms.Button();
@@ -49,7 +50,6 @@
             this.tbxColor = new System.Windows.Forms.TextBox();
             this.pnlMargin = new System.Windows.Forms.Panel();
             this.tmrClock = new System.Windows.Forms.Timer(this.components);
-            this.btnClearComplete = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudLines)).BeginInit();
             this.pnlMargin.SuspendLayout();
@@ -95,6 +95,17 @@
             this.panel1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 15);
             this.panel1.Size = new System.Drawing.Size(480, 301);
             this.panel1.TabIndex = 5;
+            // 
+            // btnClearComplete
+            // 
+            this.btnClearComplete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClearComplete.Enabled = false;
+            this.btnClearComplete.Location = new System.Drawing.Point(399, 261);
+            this.btnClearComplete.Name = "btnClearComplete";
+            this.btnClearComplete.Size = new System.Drawing.Size(70, 25);
+            this.btnClearComplete.TabIndex = 15;
+            this.btnClearComplete.Text = "Clear PLUS";
+            this.btnClearComplete.UseVisualStyleBackColor = true;
             // 
             // btnStopAnimation
             // 
@@ -254,17 +265,6 @@
             // tmrClock
             // 
             this.tmrClock.Interval = 1000;
-            // 
-            // btnClearComplete
-            // 
-            this.btnClearComplete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClearComplete.Enabled = false;
-            this.btnClearComplete.Location = new System.Drawing.Point(399, 261);
-            this.btnClearComplete.Name = "btnClearComplete";
-            this.btnClearComplete.Size = new System.Drawing.Size(70, 25);
-            this.btnClearComplete.TabIndex = 15;
-            this.btnClearComplete.Text = "Clear PLUS";
-            this.btnClearComplete.UseVisualStyleBackColor = true;
             // 
             // MainWindow
             // 

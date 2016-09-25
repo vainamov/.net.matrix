@@ -120,11 +120,11 @@ namespace dotNetdotMatrix
             if (tokenTimeElapsed >= tokenDuration) {
                 tokenTimeElapsed = 0;
                 tokenDuration = 0;
-                clear(pnlDisplay.CreateGraphics());
+                ClearDisplay(pnlDisplay.CreateGraphics());
                 foreach (Token t in tokens) {
                     if (t.Index == tokenIndex || (t.Keep && (tokenIndex - 1 == t.Index))) {
                         dotOn = new SolidBrush(ColorTranslator.FromHtml(tbxColor.Text));
-                        paintToken(t);
+                        RenderToken(t);
                         if (t.Duration > tokenDuration)
                             tokenDuration = t.Duration;
                     }
@@ -169,7 +169,7 @@ namespace dotNetdotMatrix
             }
         }
 
-        public void clear(Graphics g, bool clearTokens = false) {
+        public void ClearDisplay(Graphics g, bool clearTokens = false) {
             vIndex = 0;
             hIndex = 0;
             if (clearTokens) {
@@ -188,11 +188,11 @@ namespace dotNetdotMatrix
         }
 
         public void btnClearToken_Click(object sender, EventArgs e) {
-            clear(pnlDisplay.CreateGraphics(), true);
+            ClearDisplay(pnlDisplay.CreateGraphics(), true);
             dotOn = new SolidBrush(ColorTranslator.FromHtml(tbxColor.Text));
         }
 
-        public void paintToken(Token token) {
+        public void RenderToken(Token token) {
             dotOn = new SolidBrush(ColorTranslator.FromHtml(tbxColor.Text));
             if (!string.IsNullOrEmpty(token.Color))
                 dotOn = new SolidBrush(ColorTranslator.FromHtml(token.Color));
