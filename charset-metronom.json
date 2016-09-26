@@ -1,0 +1,431 @@
+{
+    "Name": "7x5 Default",
+    "Author": "Festival Development",
+    "LineHeight": 8,
+    "CharHeight": 7,
+    "Characters": [
+        {
+            "CharacterCode": "A",
+            "Definition": "01110100011000111111100011000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "a",
+            "Definition": "00000000000111000001011111000101111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "Ä",
+            "Definition": "01010000000111010001111111000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "ä",
+            "Definition": "01010000000111000001011111000101111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "B",
+            "Definition": "11110100011000111110100011000111110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "b",
+            "Definition": "10000100001111010001100011000111110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "C",
+            "Definition": "01111100001000010000100001000001111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "c",
+            "Definition": "0000000001111000100010000111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "D",
+            "Definition": "11110100011000110001100011000111110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "d",
+            "Definition": "00001000010111110001100011000101111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "E",
+            "Definition": "11111100001000011110100001000011111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "e",
+            "Definition": "00000000000111010001111111000001110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "F",
+            "Definition": "11111100001000011110100001000010000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "f",
+            "Definition": "00110010010100011110010000100001000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "G",
+            "Definition": "01110100011000010111100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "g",
+            "Definition": "00000011111000110001011110000101110",
+            "Baseline": 1
+        },
+        {
+            "CharacterCode": "H",
+            "Definition": "10001100011000111111100011000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "h",
+            "Definition": "10000100001011011001100011000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "I",
+            "Definition": "111010010010010010111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "i",
+            "Definition": "010000110010010010111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "J",
+            "Definition": "01111000010000100001000011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "j",
+            "Definition": "001000011001001001110",
+            "Baseline": 1
+        },
+        {
+            "CharacterCode": "K",
+            "Definition": "10001100101010011000101001001010001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "k",
+            "Definition": "1000100010011010110010101001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "L",
+            "Definition": "10000100001000010000100001000011111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "l",
+            "Definition": "110010010010010010111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "M",
+            "Definition": "10001110111010110001100011000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "m",
+            "Definition": "00000000001000111011101011000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "N",
+            "Definition": "10001100011100110101100111000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "n",
+            "Definition": "00000000001011011001100011000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "O",
+            "Definition": "01110100011000110001100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "o",
+            "Definition": "00000000000111010001100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "Ö",
+            "Definition": "01010000000111010001100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "ö",
+            "Definition": "00000010100000001110100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "P",
+            "Definition": "11110100011000111110100001000010000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "p",
+            "Definition": "00000111101000110001111101000010000",
+            "Baseline": 1
+        },
+        {
+            "CharacterCode": "Q",
+            "Definition": "01110100011000110001100011001001101",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "q",
+            "Definition": "00000011111000110001011110000100001",
+            "Baseline": 1
+        },
+        {
+            "CharacterCode": "R",
+            "Definition": "11110100011000111110101001001010001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "r",
+            "Definition": "00000000001011011001100001000010000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "S",
+            "Definition": "01110100011000001110000011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "s",
+            "Definition": "0000000001111000011000011110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "ß",
+            "Definition": "0111010001100011011010001100011011010000",
+            "Baseline": 1,
+            "CharHeight": 8
+        },
+        {
+            "CharacterCode": "T",
+            "Definition": "11111001000010000100001000010000100",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "t",
+            "Definition": "0100010011110100010001000011",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "U",
+            "Definition": "10001100011000110001100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "u",
+            "Definition": "00000000001000110001100011001101101",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "Ü",
+            "Definition": "01010000001000110001100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "ü",
+            "Definition": "00000010100000010001100011001101101",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "V",
+            "Definition": "10001100011000110001100010101000100",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "v",
+            "Definition": "00000000001000110001100010101000100",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "W",
+            "Definition": "10001100011000110001101011101110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "w",
+            "Definition": "00000000001000110001101011101110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "X",
+            "Definition": "10001100010101000100010101000110001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "x",
+            "Definition": "00000000001000101010001000101010001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "Y",
+            "Definition": "10001100010101000100001000010000100",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "y",
+            "Definition": "00000100011000110001011110000101110",
+            "Baseline": 1
+        },
+        {
+            "CharacterCode": "Z",
+            "Definition": "11111000010001000100010001000011111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "z",
+            "Definition": "00000000001111100010001000100011111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "1",
+            "Definition": "010110010010010010111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "2",
+            "Definition": "01110100010000100010001000100111111",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "3",
+            "Definition": "01110100010000100110000011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "4",
+            "Definition": "00010001100101010010111110001000010",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "5",
+            "Definition": "11111100001111000001000011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "6",
+            "Definition": "01110100011000011110100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "7",
+            "Definition": "11111000010001000010001000010000100",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "8",
+            "Definition": "01110100011000101110100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "9",
+            "Definition": "01110100011000101111000011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "0",
+            "Definition": "01110100011000110001100011000101110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": " ",
+            "Definition": "00000000000000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": ".",
+            "Definition": "0000001",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": ":",
+            "Definition": "0010010",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": ",",
+            "Definition": "00000000010110",
+            "Baseline": 1
+        },
+        {
+            "CharacterCode": "!",
+            "Definition": "1111101",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "?",
+            "Definition": "01110100010000100110001000000000100",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "/",
+            "Definition": "0001000100100110010010001000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "-",
+            "Definition": "000000000111000000000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "'",
+            "Definition": "11000000",
+            "Baseline": 1,
+            "CharHeight": 8
+        },
+        {
+            "CharacterCode": "(",
+            "Definition": "011100100100100100011",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": ")",
+            "Definition": "110001001001001001110",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "<",
+            "Definition": "000001010100010001000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": ">",
+            "Definition": "000100010001010100000",
+            "Baseline": 0
+        },
+        {
+            "CharacterCode": "=",
+            "Definition": "111111111110111011110111011110111011110111011110111011111000111111111111",
+            "Baseline": 1,
+            "CharHeight": 8
+        },
+        {
+            "CharacterCode": "@",
+            "Definition": "0111110100000110011011010110101110010000000111110",
+            "Baseline": 0
+        }
+    ]
+}
